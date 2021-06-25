@@ -1,7 +1,7 @@
 apiVersion: v2
-appVersion: 2.0.0
+appVersion: 2.5.1
 description: Rancher demo application, web UI showing scale of containers
 name: rancher-demo
-version: 2.5.0
+version: 2.6.0
 icon: https://udemy-images.udemy.com/course/750x422/1527740_a494.jpg
 type: application
