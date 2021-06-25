@@ -2,6 +2,17 @@ apiVersion: v1
 entries:
   rancher-demo:
   - apiVersion: v2
+    appVersion: 2.5.1
+    created: "2021-06-25T10:46:15.004849355Z"
+    description: Rancher demo application, web UI showing scale of containers
+    digest: c763fe5c668b173535e7b558ae1ce0ce988fd29028c8c19636c19d5522385d36
+    icon: https://udemy-images.udemy.com/course/750x422/1527740_a494.jpg
+    name: rancher-demo
+    type: application
+    urls:
+    - https://github.com/janeczku/fleet-demo-charts/releases/download/rancher-demo-2.6.0/rancher-demo-2.6.0.tgz
+    version: 2.6.0
+  - apiVersion: v2
     appVersion: 2.0.0
     created: "2021-06-25T09:32:35.317295312Z"
     description: Rancher demo application, web UI showing scale of containers
