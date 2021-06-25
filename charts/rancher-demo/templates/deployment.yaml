@@ -29,11 +29,11 @@ spec:
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           env:
           - name: TITLE
-            value: {{ .Values.app.localization.title | quote }}
+            value: {{ printf "%s (%s)" .Values.app.title .Values.app.cluster | quote }}
           - name: CONTAINER_COLOR
-            value: {{ .Values.app.localization.color | quote }}
+            value: {{ .Values.app.color | quote }}
           - name: PETS
-            value: {{ .Values.app.localization.pets | quote }}
+            value: {{ .Values.app.pets | quote }}
           ports:
             - name: http
               containerPort: 8080

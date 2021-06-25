@@ -11,13 +11,13 @@ questions:
   type: string
   label: Ingress Endpoint DNS
   group: "Ingress Configuration"
-- variable: app.localization.title
+- variable: app.title
   default: "Rancher Demo App"
   description: "Customize the title displayed in the application UI"
   type: string
   label: Localized Title
   group: "App Configuration"
-- variable: app.localization.pets
+- variable: app.pets
   default: "cows"
   description: "Pick your favourite container pet!"
   type: enum
@@ -27,7 +27,7 @@ questions:
     - "cowmeleons"
   label: "Container Pet"
   group: "App Configuration"
-- variable: app.localization.color
+- variable: app.color
   default: "black"
   description: "Add some color to the mix (specify a CSS color name)"
   type: string
